@@ -1,6 +1,5 @@
 .footer__list {
   display: flex;
-  flex-direction: row;
   column-gap: 18px;
   list-style: none;
   padding: 0;
@@ -10,7 +9,7 @@
 @media screen and (max-width: 695px) {
   .footer__list { 
     flex-direction: column;
-    min-height: 310px;
+    padding-bottom: 48px;
     row-gap: 32px;
   }
 }

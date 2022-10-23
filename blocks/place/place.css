@@ -7,7 +7,7 @@
   padding-bottom: 80px;
 }
 
-.place:nth-child(5){
+.place:last-child{
   padding: 0;
 }
 
@@ -15,7 +15,6 @@
   .place {
     grid-template-columns: 440px 1fr;
     column-gap: 32px;
-    padding: 0 0px 87px 0px;
   }
 }
 

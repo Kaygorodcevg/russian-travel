@@ -1,8 +1,7 @@
 .header__link {
   width: 176px;
   height: 52px;
-  color: #ffffff;
-  font-family: "Inter";
+  color: #fff;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -12,6 +11,7 @@
 
 .header__link:hover {
   opacity: 0.8;
+  transition: 0.5s ease;
 }
 
 @media screen and (max-width: 560px) {
