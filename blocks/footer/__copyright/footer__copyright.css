@@ -8,5 +8,6 @@
 @media screen and (max-width: 630px) {
   .footer__copyright {
     line-height: 14px;
+    min-width: 186px;
   }
 }

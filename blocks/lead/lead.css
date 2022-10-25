@@ -6,13 +6,14 @@
 
 @media screen and (max-width: 1128px) {
   .lead {
-    max-width: 928px;
+    padding: 0 48px 0 48px;
   }
 }
 
 @media screen and (max-width: 928px) {
-  .lead {
+  .lead { 
     max-width: 768px;
+    padding: 0;
   }
 }
 
